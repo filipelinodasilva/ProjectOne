@@ -50,35 +50,37 @@ public class aluno {
 
 		/* Estrutura de repetição While */
 
-		int numero = 50;
+		// int numero = 50;
 		/*
 		 * While valida se a condição é True, se for False ele finaliza a estrutura de
 		 * repetição
 		 */
 		// Primeiro Verifica e depois Executa.
-		while (numero <= 55) {
-			System.out.println("O numero atual é : " + numero);
-			numero++;
+		// while (numero <= 55) {
+		// System.out.println("O numero atual é : " + numero);
+		// numero++;
+		// }
+
+		// int numero2 = 2;
+		// do { /* Primeiro Executa e depois Verifica */
+
+		// System.out.println("O numero atual é : " + numero2);
+		// numero2++;
+
+		// }
+		// while (numero2 <= 5);
+
+		/* Estrutura de repetição FOR Crescente e Decrescente */
+
+		for (int idade = 0; idade <= 5; idade++) {
+			System.out.println("Crescente : " + idade);
 		}
 		
-		int numero2 = 2;
-		do { /* Primeiro Executa e depois Verifica */
-
-			System.out.println("O numero atual é : " + numero2);
-			numero2++;
-
-		} while (numero2 <= 5);
-		
-		/*Estrutura de repetição FOR*/
-		
-		int n = 0;
-		for (int n3 = 0; nV3 <= 10; n ++) {
-			System.out.println("Numero atual é : ");
+		for (int anos = 5; anos >= 0; anos --) {
+			System.out.println("Decrescente : " + anos);
 		}
-		
-		
-		
-/*********************************/
+
+		/*********************************/
 	}
 
 }
