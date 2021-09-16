@@ -60,15 +60,25 @@ public class aluno {
 			System.out.println("O numero atual é : " + numero);
 			numero++;
 		}
-
-		int numero2 = 0;
+		
+		int numero2 = 2;
 		do { /* Primeiro Executa e depois Verifica */
 
 			System.out.println("O numero atual é : " + numero2);
 			numero2++;
 
 		} while (numero2 <= 5);
-
+		
+		/*Estrutura de repetição FOR*/
+		
+		int n = 0;
+		for (int n3 = 0; nV3 <= 10; n ++) {
+			System.out.println("Numero atual é : ");
+		}
+		
+		
+		
+/*********************************/
 	}
 
 }
