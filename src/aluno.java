@@ -15,7 +15,7 @@ public class aluno {
 		int nota1 = 10;
 		int nota2 = 30;
 		int nota3 = 40;
-		int nota4 = 50;
+		int nota4 = 90;
 		int media = 0;
 
 		media = (nota1 + nota2 + nota3 + nota4) / 4;
@@ -45,6 +45,26 @@ public class aluno {
 			break;
 
 		default: System.out.println("Aluno tem que refazer a prova: " + media);
+			break;
+		}
+		
+		int dia = 4;
+		switch (dia) {
+		case 1:
+			System.out.println("Domingo");
+			break;
+		case 2:
+			System.out.println("Segunda");
+			break;
+		case 3:
+			System.out.println("Terça");
+			break;
+		case 4:
+			System.out.println("Quarta");
+			break;
+			
+
+		default: System.out.println("Qualquer dia");
 			break;
 		}
 		
