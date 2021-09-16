@@ -37,7 +37,16 @@ public class aluno {
 		System.out.println(saidaResultado);
 		*/
 		
+		// Switch Case: Operações Exatas
 		
+		switch (media) {
+		case 70:
+			System.out.println("Aluno aprovado: " + media);
+			break;
+
+		default: System.out.println("Aluno tem que refazer a prova: " + media);
+			break;
+		}
 		
 		
 		
