@@ -72,14 +72,36 @@ public class aluno {
 
 		/* Estrutura de repetição FOR Crescente e Decrescente */
 
-		for (int idade = 0; idade <= 5; idade++) {
-			System.out.println("Crescente : " + idade);
+		// for (int idade = 0; idade <= 5; idade++) {
+		// System.out.println("Crescente : " + idade);
+		// }
+
+		// for (int anos = 5; anos >= 0; anos --) {
+		// System.out.println("Decrescente : " + anos);
+		// }
+
+		/* Estrutura de repetição FOR com Break (Parada) */
+
+		// for (int numero = 10; numero >= 0; numero--) {
+		// if (numero == 5) {
+		// System.out.println("Obrigado por esperar, identificamos nº : " + numero);
+		// System.out.println("Vou finalizar busca. até mais.");
+		// break;
+		// }
+		// }
+
+		/* Estrutura de repetição FOR e Continue */
+		
+		for (int numero = 0; numero <= 10; numero ++) {
+			if (numero == 3 || numero == 6 || numero == 9) {
+				System.out.println("Numero encontrado: " + numero);
+				continue;
+			}
+			
+			System.out.println("Processando laço de repetição.");
 		}
 		
-		for (int anos = 5; anos >= 0; anos --) {
-			System.out.println("Decrescente : " + anos);
-		}
-
+		
 		/*********************************/
 	}
 
