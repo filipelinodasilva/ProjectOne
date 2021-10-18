@@ -92,17 +92,26 @@ public class aluno {
 
 		/* Estrutura de repetição FOR e Continue */
 		
-		for (int numero = 0; numero <= 10; numero ++) {
-			if (numero == 3 || numero == 6 || numero == 9) {
-				System.out.println("Numero encontrado: " + numero);
-				continue;
-			}
+		//for (int numero = 0; numero <= 10; numero ++) {
+		//	if (numero == 3 || numero == 6 || numero == 9) {
+		//	System.out.println("Numero encontrado: " + numero);
+		//	continue;
+		//	}
 			
-			System.out.println("Processando laço de repetição.");
-		}
+		//	System.out.println("Processando laço de repetição.");
+		//}
 		
 		
 		/*********************************/
+		/*Main é um metodo auto execultavel em Java*/
+	
+			double carro = 9;
+			double pessoa = 2;
+			double resto = carro % pessoa;
+			
+			System.out.println("Sobraram exatamente :" + resto + "carros.");
+			
+		}
 	}
 
-}
+
