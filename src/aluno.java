@@ -16,7 +16,8 @@ public class aluno {
 			int divisao = (int) (carroNumero / pessoaNumero);
 			double resto = carroNumero % pessoaNumero;
 			
-			JOptionPane.showMessageDialog(null, "Divisão para pessoas deu " + divisao + "Carros e Sobrou " + resto + "Carros. ");
+			JOptionPane.showMessageDialog(null, "Divisão para pessoas deu " + divisao + "Carros e Sobrou. ");
+			JOptionPane.showMessageDialog(null, "Sobrou " + resto + "Carros. ");
 		}
 	}
 
